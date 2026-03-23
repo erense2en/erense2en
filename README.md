@@ -1,16 +1,30 @@
-## Hi there 👋
+# erensezen.com.tr
 
-<!--
-**erense2en/erense2en** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+My personal site forked from [1337.org.tr](https://1337.org.tr) created with **Next.js** and **TailwindCSS**.
 
-Here are some ideas to get you started:
+## Getting Started
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Once you've cloned the repository, install all dependencies:
+
+```bash
+yarn install
+```
+
+Then, run the development server:
+
+```bash
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Configuration
+
+1. Open `.env.example` and modify the environment variables to the specified values.
+2. Rename the file to `.env.local` once done.
+
+## Deploy on Vercel
+
+The easiest way to deploy a Next.js app is to use the [Vercel Platform](https://vercel.com/) from the creators of Next.js.
+
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

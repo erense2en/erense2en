@@ -8,7 +8,7 @@ import readingTime from 'reading-time'
 import rehypePrism from '@mapbox/rehype-prism'
 import matter from 'gray-matter'
 import Image from 'next/image'
-import NebulaImage from '@public/img/eren.png'
+import NebulaImage from '@public/img/nebula.png'
 import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import { ParsedUrlQuery } from 'querystring'
 

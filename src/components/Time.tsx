@@ -29,10 +29,10 @@ const Time = () => {
   return (
     <p>
       <FontAwesomeIcon
-        className="mr-2"
-        icon={date.isBetween(beforeTime, afterTime) ? ['far', 'snooze'] : ['far', 'clock']}
-      />
-      {date.format('MMMM Do YYYY • h:mm:ss A')}{' '}
+    className="mr-2"
+    icon={date.hour() >= 0 && date.hour() < 8 ? ['far', 'snooze'] : ['far', 'clock']}
+  />
+  {date.format('MMMM D YYYY • HH:mm:ss')}
       {currentEvent && (
         <span className="font-bold">
           —{' '}

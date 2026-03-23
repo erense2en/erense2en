@@ -32,7 +32,7 @@ const Time = () => {
     className="mr-2"
     icon={date.hour() >= 0 && date.hour() < 8 ? ['far', 'snooze'] : ['far', 'clock']}
   />
-  {date.format('MMMM D YYYY • HH:mm:ss')}
+  {date.format('D MMMM YYYY • HH:mm:ss')}
       {currentEvent && (
         <span className="font-bold">
           —{' '}

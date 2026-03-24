@@ -1,5 +1,5 @@
 import { config, library } from '@fortawesome/fontawesome-svg-core'
-import { faGithub, faDiscord, faApple, faInstagram, faSpotify } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faDiscord, faApple, faInstagram, faSpotify, faPaypal } from '@fortawesome/free-brands-svg-icons'
 import {
   faEnvelope,
   faSearch,
@@ -21,7 +21,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 
 // Import @fortawesome/free-brands-svg-icons
-library.add(faInstagram, faGithub, faDiscord, faSpotify, faApple)
+library.add(faInstagram, faGithub, faDiscord, faSpotify, faApple, faPaypal)
 
 // Import @fortawesome/free-solid-svg-icons
 library.add(faEnvelope, faSearch, faCalendarDay, faSolidCaretDown, faHome, 

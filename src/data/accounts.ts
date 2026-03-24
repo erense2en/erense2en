@@ -26,6 +26,7 @@ export const AccountData: Account[] = [
   },
   {
     name: 'Email',
+    href: 'mailto:airportboyz@proton.me',
     icon: ['fas', 'envelope'],
   },
 ]

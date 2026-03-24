@@ -16,7 +16,7 @@ export const ProjectData: Project[] = [
     icon: ['fab', 'paypal'],
   },
   {
-    title: 'Eren Sezen',
+    title: 'Discord',
     description:
       "My own discord server",
     href: 'https://discord.gg/1974',

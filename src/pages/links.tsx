@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'uuid'
 import { ProjectData } from 'data/links'
 import { ProjectCard } from 'components/ProjectCard'
 
-const Projects = () => {
+const Links = () => {
   return (
     <MainLayout
       title="Links"

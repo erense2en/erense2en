@@ -6,8 +6,8 @@ import { ProjectCard } from 'components/ProjectCard'
 const Projects = () => {
   return (
     <MainLayout
-      title="Projects"
-      description="My all project, I've worked on or I'm currently working on."
+      title="Links"
+      description="this and that"
     >
       <div className="grid gap-6">
         {ProjectData.map((project) => (

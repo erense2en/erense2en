@@ -45,12 +45,12 @@ const Home = () => {
   return (
     <>
       <a rel="me" href="https://ptb.discord.com/users/1476396692575223921" style={{"display": "none"}}></a>
-      <GenericMeta title="eren" description="developer and business from Turkey." />
+      <GenericMeta title="eren" description="CISSP and Cyber SeC#. Business boy from Turkey." />
 
       <MainLayout margin={false}>
         <h1 className="text-6xl font-bold">eren</h1>
         <p className="text-lg text-gray-600 dark:text-gray-400 max-w-sm mt-2">
-        developer and business from Turkey.
+        CISSP and Cyber SeC#. Business boy from Turkey.
         </p>
         <div className="grid grid-flow-col w-48 mt-3 text-lg">
           {AccountData.map((account) => (

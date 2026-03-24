@@ -59,7 +59,7 @@ const Home = () => {
               name={account.name}
               href={account.href}
               icon={account.icon}
-              copyEmail={copyEmail}
+              copyEmail={account.name === 'Email' ? copyEmail : undefined}
             />
           ))}
         </div>

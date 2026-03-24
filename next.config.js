@@ -13,13 +13,13 @@ module.exports = {
         permanent: true,
       },
       {
-        source: '/twitter',
-        destination: 'https://twitter.com/erense2en',
+        source: '/instagram',
+        destination: 'https://instagram.com/erense2en',
         permanent: true,
       },
       {
         source: '/discord',
-        destination: 'https://ptb.discord.com/users/1476396692575223921',
+        destination: 'https://discord.com/users/1476396692575223921',
         permanent: true,
       },
       {

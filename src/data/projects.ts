@@ -13,14 +13,14 @@ export const ProjectData: Project[] = [
     description:
       "Bon appétit",
     href: 'https://www.paypal.com/paypalme/erensezen',
-    icon: ['fas', 'paypal'],
+    icon: ['fab', 'paypal'],
   },
   {
     title: 'Eren Sezen',
     description:
       "My own discord server",
     href: 'https://discord.gg/1974',
-    icon: ['fas', 'wifi'],
+    icon: ['fab', 'discord'],
   },
   
 ]

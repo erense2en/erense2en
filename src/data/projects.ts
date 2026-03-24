@@ -9,18 +9,18 @@ export interface Project {
 
 export const ProjectData: Project[] = [
   {
-    title: 'erensezen.com.tr',
+    title: 'PayPal',
     description:
-      "Life is good",
-    href: 'https://github.com/erense2en',
-    icon: ['fas', 'home'],
+      "Bon appétit",
+    href: 'https://www.paypal.com/paypalme/erensezen',
+    icon: ['fas', 'paypal'],
   },
   {
     title: 'Eren Sezen',
     description:
       "My own discord server",
     href: 'https://discord.gg/1974',
-    icon: ['fas', 'discord'],
+    icon: ['fas', 'wifi'],
   },
   
 ]

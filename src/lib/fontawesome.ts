@@ -21,7 +21,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 
 // Import @fortawesome/free-brands-svg-icons
-library.add(faTwitter, faGithub, faDiscord, faApple)
+library.add(faInstagram, faGithub, faDiscord, faSpotify, faApple)
 
 // Import @fortawesome/free-solid-svg-icons
 library.add(faEnvelope, faSearch, faCalendarDay, faSolidCaretDown, faHome, 

@@ -20,7 +20,7 @@ class AppDocument extends Document {
           <meta property="og:site_name" content="erensezen.com.tr" />
           <meta property="og:image" content="/img/erensezen.png" />
           <meta name="theme-color" content="#000000" />
-          <meta name="twitter:card" content="summary" />
+          <meta name="instagram:card" content="summary" />
         </Head>
         <body className="bg-white dark:bg-black text-black dark:text-white">
           <Main />

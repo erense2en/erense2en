@@ -23,7 +23,7 @@ export const RouteData: Route[] = [
   },
   {
     name: '1337',
-    href: '1337.org.tr',
+    href: 'https://1337.org.tr',
     type: 'dropdown',
   },
 ]

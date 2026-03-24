@@ -1,5 +1,5 @@
 import { config, library } from '@fortawesome/fontawesome-svg-core'
-import { faTwitter, faGithub, faDiscord, faApple } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faDiscord, faApple, faInstagram, faSpotify } from '@fortawesome/free-brands-svg-icons'
 import {
   faEnvelope,
   faSearch,

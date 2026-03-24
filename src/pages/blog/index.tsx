@@ -8,8 +8,9 @@ const Blog = ({ allPostsData }: InferGetStaticPropsType<typeof getStaticProps>) 
   return (
     <MainLayout
       title="Blog"
-      description="only business = erense2en"
+      description="ben Eren bu sıralar biraz koşturuyorum 🤑"
     >
+      <div className="mt-2 text-2xl">🇬🇷 🇳🇱 🇬🇪 🇲🇪</div>
       <div className="mt-8 grid gap-8">
         {allPostsData.map(({ slug, date, title, excerpt }) => {
           return <BlogCard key={uuidv4()} slug={slug} date={date} title={title} excerpt={excerpt} />
